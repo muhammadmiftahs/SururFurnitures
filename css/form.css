@@ -1,0 +1,24 @@
+:root{
+  /* color */
+  --primaryColor: #002939;
+  --secondaryColor: #DDC190;
+}
+
+.font-check{
+    color: var(--primaryColor);
+    font-size: 16px;
+}
+
+::placeholder { 
+  color: #d2d3d5;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { 
+  color: #d2d3d5;
+}
+
+::-ms-input-placeholder { 
+    color: #d2d3d5;
+}
+
